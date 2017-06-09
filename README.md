@@ -12,10 +12,10 @@ Some very basic styling has already been applied for you.
 ## How to implement
 
 1. Add the following files to your html:
-    + _css/customizable-select.css_
-    + _css/customizable-select-theme.css_
-    + _js/customizable-select.js_
-    + _js/customizable-select-init_
+    * _css/customizable-select.css_
+    * _css/customizable-select-theme.css_
+    * _js/customizable-select.js_
+    * _js/customizable-select-init_
 2. Give the select-elements you want to apply styling to a data-attribute `data-customizable-select`
 3. When used in an environment that supports _imports_ and _exports_, re-enable the import-line in _customizable-select-init.js_ and the export-line in _customizable-select.js_.
 
@@ -30,7 +30,7 @@ This file handles the initialization of the plugin. In here, you can change whic
 * `customSelectClass`: The class name of the fake select element (default: `custom-select`)
 * `wrapperElement`: The type of html element to use as a wrapper around the `select` and the fake element (default: `div`)
 * `wrapperElementClass`: The class given to the wrapper element (default: `customizable-select-container`)
-* 
+
 ### _css/customizable-select-theme-css_
 
 This file contains the cosmetic styling for the plugin. Change as you wish.
