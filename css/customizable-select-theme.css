@@ -6,6 +6,7 @@
 
 .customizable-select--is-replaced,
 .custom-select {
+	/* you'll want these two elements to have the same size */
 	padding: 1em;
 	height: 100%;
 }
@@ -32,7 +33,7 @@
 	content: '›';
 	right: 0.2em;
 	top: 50%;
-	width: 0.5em;
+	width: 0.6em;
 	height: 1em;
 	text-align: center;
 	line-height: 1;
