@@ -1,6 +1,6 @@
 # customizable select
 
-A fully accessible, unobtrusive, lightweight vanilla javascript (es2015) enhancement for select-elements
+A fully accessible, unobtrusive, lightweight vanilla javascript (es2015) enhancement for select-elements. Allows you to style (closed) select-elements.
 
 (Based on the plugin described at http://www.456bereastreet.com/archive/201111/an_accessible_keyboard_friendly_custom_select_menu/)
 
@@ -11,13 +11,13 @@ Some very basic styling has already been applied for you.
 
 ## How to implement
 
-1. add the following files to your html:
-*_css/customizable-select.css_
-*_css/customizable-select-theme.css_
-*_js/customizable-select.js_
-*_js/customizable-select-init_
-2. give the select-elements you want to apply styling to a data-attribute `data-customizable-select`
-3. when used in an environment that supports _imports_ and _exports_, re-enable the import-line in _customizable-select-init.js_ and the export-line in _customizable-select.js_.
+1. Add the following files to your html:
+    + _css/customizable-select.css_
+    + _css/customizable-select-theme.css_
+    + _js/customizable-select.js_
+    + _js/customizable-select-init_
+2. Give the select-elements you want to apply styling to a data-attribute `data-customizable-select`
+3. When used in an environment that supports _imports_ and _exports_, re-enable the import-line in _customizable-select-init.js_ and the export-line in _customizable-select.js_.
 
 ## Customizing for your situation
 
