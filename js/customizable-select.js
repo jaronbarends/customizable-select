@@ -1,4 +1,10 @@
 /*
+* Customizable select
+* https://github.com/jaronbarends/customizable-select
+*
+* Accessible vanilla javascript enhancement for select elements
+* This allows you to style the select element only, not the options
+*
 * Based on http://www.456bereastreet.com/archive/201111/an_accessible_keyboard_friendly_custom_select_menu/
 */
 class CustomizableSelect {
@@ -52,3 +58,5 @@ class CustomizableSelect {
 	}
 	
 }
+// re-enable this line when used as import
+// export default CustomizableSelect;

@@ -1,0 +1,41 @@
+/*
+* Cosmetic styling for customizable select
+* Only put styles here that do not affect its working
+* Those styles should be put into customizable-select.css
+*/
+
+.customizable-select--is-replaced,
+.custom-select {
+	padding: 1em;
+	height: 100%;
+}
+
+/* Set the dimensions of the replaced select element and make it transparent. */
+.customizable-select--is-replaced {
+	border: 0;
+}
+
+/* fake-element that acts as custom select */
+.custom-select {
+	border: 1px solid currentColor;
+	padding-right: 1.5em;
+}
+
+.customizable-select--is-replaced:focus + .custom-select {
+	color: #c30;
+}
+
+/* arrow symbol after select */
+.custom-select::after {
+	position: absolute;
+	display: block;
+	content: '›';
+	right: 0.2em;
+	top: 50%;
+	width: 0.5em;
+	height: 1em;
+	text-align: center;
+	line-height: 1;
+	font-size: 2em;
+	transform: translateY(-50%) rotate(90deg);
+}

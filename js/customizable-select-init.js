@@ -1,3 +1,6 @@
+// re-enable this line when used as import
+// import CustomizableSelect from '../Vendor/_customizable-select';
+
 ;(function() {
 	'use strict';
 

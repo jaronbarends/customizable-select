@@ -1,6 +1,18 @@
+/*
+* Absolute bare-bone styling for custom select that's necessary for it to work properly
+* Any cosmetic styling should be done in customizable-select-skin.css
+*/
+
 /* Wrapper element to enable positioning */
 .customizable-select-container {
 	position: relative;
+	display: inline-block;
+}
+
+.customizable-select--is-replaced,
+.custom-select {
+	box-sizing: border-box;
+	width: 100%;
 }
 
 /* Set the dimensions of the replaced select element and make it transparent. */
@@ -8,38 +20,17 @@
 	position: relative;
 	z-index: 2;
 	width: 100%;
-	border: 0;
 	opacity: 0;
 }
 
 /* fake-element that acts as custom select */
 .custom-select {
-	display: block;
+	display: inline-block;
 	overflow: hidden;
 	position: absolute;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	width: 100%;
-	background: beige;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-}
-
-.customizable-select--is-replaced:focus + .custom-select {
-	background: yellow;	
-}
-
-.custom-select::after {
-	display: block;
-	content: '';
-	position: absolute;
-	right: 0.5em;
-	top: 0;
-	width: 0.5em;
-	height: 0.5em;
-	border: 2px solid currentColor;
-	border-top: none;
-	border-right: none;
-	transform: rotate(-45deg);
 }
